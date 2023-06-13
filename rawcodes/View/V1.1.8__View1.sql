@@ -1,0 +1,6 @@
+USE SCHEMA DEMO_ONE;
+CREATE OR REPLACE VIEW View_raw_data
+As
+(
+    Select * FROM RAW_DEV.DEMO_ONE.RAW_DEV
+);
